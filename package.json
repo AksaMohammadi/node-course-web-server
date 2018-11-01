@@ -1,15 +1,17 @@
 {
-  "name": "web",
+  "name": "node-web",
   "version": "1.0.0",
+  "description":"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start":"node server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  // "description": "",
   "dependencies": {
     "express": "^4.14.0",
-    "hbs": "^4.0.1"
+    "hbs": "^4.0.0"
   }
 }
