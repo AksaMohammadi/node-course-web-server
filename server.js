@@ -28,13 +28,13 @@ app.use((req,res,next) => {
 
 hbs.registerHelper('getCurrentYear',() => {
 	 return new Date().getFullYear()
-})
+});
 
 
 hbs.registerHelper('screamIt',(text) => {
 	console.log(text)
 	return text.toUpperCase();
-})
+});
 
 app.get('/',(req, res) => {
 	res.render('home.hbs',{
